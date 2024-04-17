@@ -1,0 +1,14 @@
+# Configs
+package.json
+package-lock.json
+tsconfig.json
+
+# npm
+node_modules
+npm-debug.log
+
+# Build
+/dist
+
+# IDEs
+.vscode/

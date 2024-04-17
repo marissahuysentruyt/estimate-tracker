@@ -1,0 +1,16 @@
+# npm
+node_modules
+
+# Build
+/out
+/build
+/dist
+/_site
+
+# IDEs
+.vscode
+.idea
+
+# Next.js
+.next
+next-env.d.ts
