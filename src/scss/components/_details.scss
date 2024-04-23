@@ -1,0 +1,9 @@
+.details {
+  background-color: hotpink;
+
+  @media (min-width: 1024px) {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}

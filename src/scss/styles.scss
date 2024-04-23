@@ -1,27 +1,30 @@
-@use "./elements/body";
+// SETTINGS
+
+// TOOLS
+
+// GENERICS
+
+// OBJECTS/LAYOUTS
+
+// ELEMENTS
 @use './elements/root';
+@use "./elements/body";
 
-.about {
-  background-color: hotpink;
+// COMPONENTS
+@use './components/details';
 
-  @media (min-width: 1024px) {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
+// VENDOR
+
+// UTILITIES
 
 a {
+  color: var(--vt-c-white-mute);
   text-decoration: none;
-  transition: 1s;
+  text-underline-offset: 0.25rem;
   padding: 3px;
 
   &:hover {
-    background-color: oklch(70.39% 0.15deg 160.55deg / 20%);
+    text-decoration: underline;
+    text-underline-offset: 0.25rem;
   }
-}
-
-.green {
-  text-decoration: underline;
-  color: var(--color-heading);
 }
