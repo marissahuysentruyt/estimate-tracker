@@ -1,0 +1,11 @@
+a {
+  color: var(--vt-c-white-mute);
+  text-decoration: none;
+  text-underline-offset: 0.25rem;
+  padding: 3px;
+
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.25rem;
+  }
+}

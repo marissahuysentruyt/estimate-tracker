@@ -8,7 +8,8 @@
 
 // ELEMENTS
 @use './elements/root';
-@use "./elements/body";
+@use './elements/body';
+@use './elements/a';
 
 // COMPONENTS
 @use './components/details';
@@ -16,15 +17,3 @@
 // VENDOR
 
 // UTILITIES
-
-a {
-  color: var(--vt-c-white-mute);
-  text-decoration: none;
-  text-underline-offset: 0.25rem;
-  padding: 3px;
-
-  &:hover {
-    text-decoration: underline;
-    text-underline-offset: 0.25rem;
-  }
-}
