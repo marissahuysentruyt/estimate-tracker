@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import InputForm from '@/components/InputForm.vue';
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <h1>Estimate Tracker</h1>
+    <InputForm />
   </main>
 </template>
