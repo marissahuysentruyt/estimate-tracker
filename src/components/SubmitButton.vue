@@ -1,11 +1,11 @@
 <script setup lang="ts">
   defineProps<{
-    buttonText: string
+    buttonText: string;
   }>();
 </script>
 
 <template>
-  <button type="submit" >
+  <button type="submit">
     {{ buttonText }}
   </button>
 </template>
