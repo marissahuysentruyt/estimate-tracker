@@ -1,8 +1,5 @@
 {
 	"extends": ["stylelint-config-standard", "stylelint-config-standard-scss"],
-	"plugins": [
-		"stylelint-gamut"
-	],
  	"rules": {
 		"selector-class-pattern": [
 			"^(?:[a-z][a-z0-9]*(?:-[a-z0-9]+)*(?:__[a-z0-9]+(?:-[a-z0-9]+)*)?(?:--[a-z0-9]+(?:-[a-z0-9]+)*)?)?(?:\\[.+\\])?$",
@@ -18,9 +15,7 @@
 				"ignore": ["blockless-at-rules"]
 			}
 		],
-		"gamut/color-no-out-gamut-range": true,
     "function-disallowed-list": ["rgba", "hsla", "rgb", "hsl"],
-    "color-function-notation": "modern",
-    "color-no-hex": true
+    "color-function-notation": "modern"
 	}
 }
