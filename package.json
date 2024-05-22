@@ -23,6 +23,9 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@spectrum-css/button": "^13.1.0",
+    "@spectrum-css/tokens": "^14.1.0",
+    "@spectrum-css/typography": "^6.1.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
